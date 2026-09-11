@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="900" viewBox="0 0 800 900">
+<title>水車小屋の下・プレイヤー用</title>
+<desc>北が上。1マス5フィート。地上30×20フィート、地下の二室は各20×20フィート。東西の通路は長さ20フィート、幅5フィート。</desc>
+<defs><pattern id="grid" x="90" y="175" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#b6c3c4" stroke-width="1"/></pattern></defs>
+<rect width="800" height="900" fill="white"/>
+<g font-family="Yu Gothic,Meiryo,sans-serif" fill="#243637" font-size="18">
+<text x="60" y="65" font-size="30">水車小屋の下</text><text x="60" y="100">プレイヤー用・発見した範囲で提示</text>
+<text x="90" y="155">水車小屋・地上</text><text x="90" y="475">地下</text>
+<g fill="url(#grid)" stroke="#243637" stroke-width="4">
+<rect x="90" y="175" width="240" height="160"/>
+<path d="M90 495H250V555H410V495H570V655H410V595H250V655H90Z"/>
+</g>
+<!-- Door openings: a south ground entrance, and the stone-room west door. -->
+<path d="M210 335H250" stroke="white" stroke-width="7"/><path d="M210 335V295" stroke="#243637" stroke-width="3"/>
+<path d="M410 555V595" stroke="#243637" stroke-width="6"/>
+<g stroke="#164f63" stroke-width="3" fill="none"><rect x="130" y="215" width="40" height="40"/><path d="M138 222V248M162 222V248M138 229H162M138 241H162"/><rect x="130" y="535" width="40" height="40"/><path d="M138 542V568M162 542V568M138 549H162M138 561H162"/></g>
+<text x="185" y="245">点検戸</text><text x="70" y="395">梯子で10ft下降（上下の図は別階）</text>
+<path d="M150 350V368" stroke="#164f63" stroke-width="2"/>
+
+<path d="M670 220V145L660 165M670 145L680 165" fill="none" stroke="#243637" stroke-width="3"/><text x="660" y="130">北</text>
+<path d="M90 740H170M90 733V747M170 733V747" stroke="#243637" stroke-width="3"/><text x="185" y="747">10ft ／ 1マス5ft</text>
+<text x="90" y="795">青枠：梯子　太線：壁・閉じた戸</text>
+<text x="90" y="830">エスカロン 第1部　0.2.0-dev</text></g></svg>
